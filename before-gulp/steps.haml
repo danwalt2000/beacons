@@ -1,0 +1,30 @@
+%section.steps
+  .beacon_right
+  .container
+    .row
+      .col-md-12
+        %h1 A couple of steps to make your store popular
+      .col-md-3.hidden-xs
+      .col-md-2.col-xs-4.col-sm-4
+        %p.active.couple__step
+          Step 1
+      .col-md-2.col-xs-4.col-sm-4
+        %p.couple__step
+          Step 2
+      .col-md-2.col-xs-4.col-sm-4
+        %p.couple__step
+          Step 3
+      .col-md-3.hidden-xs
+      .clearfix
+      .col-md-1
+      .col-md-10
+        %p.steps__text
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      .col-md-1
+      .col-md-12
+        %form.step-form
+          %input#firstName{:name => "First Name", :placeholder => "Enter First Name", :required => "", :type => "text"}/
+          %input#lastName{:name => "Last Name", :placeholder => "Enter Last Name", :required => "", :type => "text"}/
+          %input#email{:name => "Enter Email", :placeholder => "Enter Email", :required => "", :type => "email"}/
+          %button next
